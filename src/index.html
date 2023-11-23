@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="/">
+            <img src="assets/logo.svg" alt="Logo Bookshop" />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <a href="#" class="header__nav-link active">books</a>
+              <a href="#" class="header__nav-link">audiobooks</a>
+              <a href="#" class="header__nav-link">Stationery & gifts</a>
+              <a href="#" class="header__nav-link">blog</a>
+            </ul>
+          </nav>
+          <ul class="header__actions">
+            <li>
+              <button class="header__actions-btn">
+                <img src="assets/account.svg" alt="account" />
+              </button>
+            </li>
+            <li>
+              <button class="header__actions-btn">
+                <img src="assets/search.svg" alt="search" />
+              </button>
+            </li>
+            <li>
+              <button class="header__actions-btn header__actions-btn-cart">
+                <img src="assets/cart.svg" alt="cart" />
+                <span class="header__cart-amount">0</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="intro__swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="intro__swiper-img"
+                  src="assets/slide-1.jpg"
+                  alt="slide 1"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="intro__swiper-img"
+                  src="assets/slide-2.jpg"
+                  alt="slide 2"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="intro__swiper-img"
+                  src="assets/slide-3.jpg"
+                  alt="slide 3"
+                />
+              </div>
+            </div>
+            <div class="intro__swiper-pagination swiper-pagination"></div>
+          </div>
+          <div class="intro__block intro__block-1">
+            <h3 class="intro__block-title intro__block-1-title">
+              Change old book on new
+            </h3>
+            <img src="assets/arrow.svg" alt="arrow" />
+          </div>
+          <div class="intro__block intro__block-2">
+            <h3 class="intro__block-title intro__block-2-title">
+              top 100 books 2022
+            </h3>
+            <img src="assets/arrow.svg" alt="arrow" />
+          </div>
+        </div>
+      </section>
+      <section class="library">
+        <div class="container">
+          <ul class="library__categories">
+            <li>
+              <button
+                data-category="Architecture"
+                class="library__categories-btn active"
+              >
+                Architecture
+              </button>
+            </li>
+            <li>
+              <button
+                data-category="Art & Fashion"
+                class="library__categories-btn"
+              >
+                Art & Fashion
+              </button>
+            </li>
+            <li>
+              <button data-category="Biography" class="library__categories-btn">
+                Biography
+              </button>
+            </li>
+            <li>
+              <button data-category="Business" class="library__categories-btn">
+                Business
+              </button>
+            </li>
+            <li>
+              <button
+                data-category="Crafts & Hobbies"
+                class="library__categories-btn"
+              >
+                Crafts & Hobbies
+              </button>
+            </li>
+            <li>
+              <button data-category="Drama" class="library__categories-btn">
+                Drama
+              </button>
+            </li>
+            <li>
+              <button data-category="Fiction" class="library__categories-btn">
+                Fiction
+              </button>
+            </li>
+            <li>
+              <button
+                data-category="Food & Drink"
+                class="library__categories-btn"
+              >
+                Food & Drink
+              </button>
+            </li>
+            <li>
+              <button
+                data-category="Health & Wellbeing"
+                class="library__categories-btn"
+              >
+                Health & Wellbeing
+              </button>
+            </li>
+            <li>
+              <button
+                data-category="History & Politics"
+                class="library__categories-btn"
+              >
+                History & Politics
+              </button>
+            </li>
+            <li>
+              <button data-category="Humor" class="library__categories-btn">
+                Humor
+              </button>
+            </li>
+            <li>
+              <button data-category="Poetry" class="library__categories-btn">
+                Poetry
+              </button>
+            </li>
+            <li>
+              <button
+                data-category="Psychology"
+                class="library__categories-btn"
+              >
+                Psychology
+              </button>
+            </li>
+            <li>
+              <button data-category="Science" class="library__categories-btn">
+                Science
+              </button>
+            </li>
+            <li>
+              <button
+                data-category="Technology"
+                class="library__categories-btn"
+              >
+                Technology
+              </button>
+            </li>
+            <li>
+              <button
+                data-category="Travel & Maps"
+                class="library__categories-btn"
+              >
+                Travel & Maps
+              </button>
+            </li>
+          </ul>
+          <div>
+            <ul class="library__list">
+            
+            </ul>
+            <button class="button library__load-btn">Load more</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/scripts/main.js"></script>
+  </body>
+</html>

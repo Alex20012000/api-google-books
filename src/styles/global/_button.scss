@@ -1,0 +1,15 @@
+.button {
+  padding: 18px 60px;
+  border: 1px solid $gigas;
+  outline: none;
+  text-transform: uppercase;
+  color: $gigas;
+  font-weight: 700;
+  background: transparent;
+  cursor: pointer;
+
+  &.active {
+    color: $shuttle-gray;
+    border-color: $shuttle-gray;
+  }
+}

@@ -1,0 +1,19 @@
+@import "fonts";
+@import "normalize.css/normalize.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $primary-font-size;
+  line-height: $primary-line-height;
+  color: $primary-color;
+  font-family: $primary-font-family;
+}
+
+ul {
+  list-style: none;
+}
